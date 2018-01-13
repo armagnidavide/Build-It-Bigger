@@ -10,7 +10,8 @@ import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiNamespace;
 
-import static com.example.android.libjavajokes.myClass.javaLibraryJoke;
+import static com.example.android.javalib.myClass.javaLibraryJoke;
+
 
 /** An endpoint class we are exposing */
 @Api(
@@ -30,6 +31,4 @@ public class MyEndpoint {
         response.setData("Hi, this joke is for you: "+"\""+javaLibraryJoke()+"\"");
         return response;
     }
-
-
 }
