@@ -43,7 +43,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:26.1.0'
-    compile 'com.google.android.gms:play-services-ads:11.8.0'
+    freeCompile 'com.google.android.gms:play-services-ads:11.8.0'
     compile project(':javalib')
     compile project(':androidlib')
     compile project(path: ':backend', configuration: 'android-endpoints')
